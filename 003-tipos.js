@@ -47,4 +47,10 @@ function exibedados() {
 
 exibedados();
 
+console.log('');
+console.log('tipo da variavel: Exibe dados');
+console.log(typeof(exibedados));
+console.log(Array.isArray(exibedados));
+
+
 
