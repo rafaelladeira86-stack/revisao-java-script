@@ -21,4 +21,7 @@ if(validaidade) {
     } else {
         console.log('ok voce tem 18 anos.');
     }
+
+    const maioridade = idade>=18 ? 'Maior' : 'Menor'; //ternário
+    console.log(`${nome} descobri que voce é ${maioridade} de idade.`);
 }
