@@ -7,6 +7,7 @@ let repeticoes = 0;
 while (nInicio< nFim){
     console.log(nInicio);
     nInicio++;
+    repeticoes++;
 }
 
 console.log(`o codigo foi repetido ${repeticoes} vezes!`);

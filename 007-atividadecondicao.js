@@ -14,17 +14,13 @@ let idade = entrada (' digite sua idade: ');
 let amigo = entrada ('diga se é amigo ou não do dono: (sim/não) ');
 
 
-    if(idade>=18 || amigo === 'sim') {
-        console.log('acesso liberado.');
+    if(idade>=18 && amigo === 'sim') {
+        console.log('acesso liberado e ganhou cerveja.');
 
-    
-    if (idade>=) {
+    }
+    if (idade<18 && amigo === 'sim') {
         console.log('acesso liberado')
-    }
-    }
     
-    else if(amigo){ 
-        console.log('acesso negado')
     }
     
     else if(idade< 18){
